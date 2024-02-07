@@ -1,7 +1,16 @@
 .ipynb_checkpoints/
 */.ipynb_checkpoints/
 */*/.ipynb_checkpoints/
+
 */*/__MACOSX
 */*/labutil
+
 i501/
-week-5/.env
+
+*/.env
+.env
+
+*/data/
+
+__pycache__/
+*/__pycache__/
