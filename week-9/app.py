@@ -7,8 +7,8 @@ from utils import getDataFrame, processTags
 st.set_option('deprecation.showPyplotGlobalUse', False)
 
 file_name = "processed-data.csv"
-#df = getDataFrame(file_name)
-df = pd.read_csv("processed-data.csv")
+df = getDataFrame(file_name)
+#df = pd.read_csv("processed-data.csv")
 
 sample_df = df.sample(n=20, ignore_index=True)
 
